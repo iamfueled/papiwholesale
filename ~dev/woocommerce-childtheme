@@ -1,0 +1,70 @@
+https://v4.datafeedr.com/documentation/580
+
+Step 1: Create a new theme folder
+
+The easiest way to do this is to login to your server via FTP and go to /wp-content/themes/.
+
+Once there create a new folder with whatever name you would like to use. I would suggest using a name that makes sense to you. In my case, I'm going to call the new folder: twentytwelve-child
+
+This way I know what theme this is a child theme of. If you name it something obscure, you might not remember what it is a child of.
+Step 2: Add style.css file
+
+Next, you need to add a style.css file to your new twentytwelve-child folder.
+
+So you will have the following path: /wp-content/themes/twentytwelve-child/style.css
+Step 3: Edit style.css file
+
+Open /wp-content/themes/twentytwelve-child/style.css in a file editing program and add the following lines:
+
+/*
+ Theme Name:   My Child Theme
+ Template:     twentytwelve
+*/
+
+@import url("../twentytwelve/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+You will need to make a few customizations to that if you are making a child theme of a theme other than the TwentyTwelve theme.
+
+Theme Name: This is completely up to you. This is the name of the child theme that will appear here: WordPress Admin Area > Appearance
+
+Template: This must be set to the parent's theme directory name. In my case, that's "twentytwelve". If your parent theme is in the directory "superstore", you will need to change this value to "superstore".
+
+@import url Finally, you must also change "twentytwelve" to match your parent's theme's directory. This will typically be the same at the "Template" value. And typically it should import the "style.css" file but not always.
+Step 4: Activate child theme
+
+Now let's test to make sure your child theme is working properly. Go here WordPress Admin Area > Appearance and activate the "My Child Theme" theme.
+
+After you activate your child theme, visit your site's front page. Everything should look exactly the same. All you have done so far is basically made a pointer from the child to the parent theme.
+Step 5: Create woocommerce directory.
+
+Now in your child theme directory create a new folder named "woocommerce". This folder will be responsible for storing customized WooCommerce template files.
+
+You should now have: /wp-content/themes/twentytwelve-child/woocommerce/
+Step 6: Add files which you want to customize
+
+You can find a list of all WooCommerce template files here: /wp-content/plugins/woocommerce/templates/
+
+In this example, I want to customize this file: /wp-content/plugins/woocommerce/templates/single-product/add-to-cart/external.php
+
+So I need to create that directory path and add that file in my child folder so that I have this:
+
+/wp-content/themes/twentytwelve-child/woocommerce/single-product/add-to-cart/external.php
+Step 7: Modify the external.php file
+
+Now we are ready to make our file edits. Open /wp-content/themes/twentytwelve-child/woocommerce/single-product/add-to-cart/external.php in your file editor and change this line:
+
+	<a href="<?php echo esc_url( $product_url ); ?>" rel="nofollow" class="single_add_to_cart_button button alt"><?php echo $button_text; ?></a>
+
+To this:
+
+	<a target="_blank" href="<?php echo esc_url( $product_url ); ?>" rel="nofollow" class="single_add_to_cart_button button alt"><?php echo $button_text; ?></a>
+
+Save the file.
+
+Now your 'buy' buttons will open in a new window.
+All Done!
+
+Now you can safely modify the child theme's style.css file, functions.php file or any WooCommerce template file without having to worry about losing your changes when updating your theme or WooCommerce plugin. All your changes will be safely stored in your child theme folder.
