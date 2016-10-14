@@ -7,7 +7,7 @@
 #
 # Host: localhost (MySQL 5.5.42)
 # Database: papiws2
-# Generation Time: 2016-10-14 16:08:11 +0000
+# Generation Time: 2016-10-14 16:16:40 +0000
 # ************************************************************
 
 
@@ -315,22 +315,61 @@ VALUES
 	(29,22,'_edit_last','1'),
 	(30,22,'_wp_page_template','default'),
 	(31,22,'_edit_lock','1476459607:1'),
-	(32,24,'_menu_item_type','post_type'),
-	(33,24,'_menu_item_menu_item_parent','0'),
-	(34,24,'_menu_item_object_id','15'),
-	(35,24,'_menu_item_object','page'),
-	(36,24,'_menu_item_target',''),
-	(37,24,'_menu_item_classes','a:1:{i:0;s:0:\"\";}'),
-	(38,24,'_menu_item_xfn',''),
-	(39,24,'_menu_item_url',''),
-	(41,25,'_menu_item_type','post_type'),
-	(42,25,'_menu_item_menu_item_parent','0'),
-	(43,25,'_menu_item_object_id','11'),
-	(44,25,'_menu_item_object','page'),
-	(45,25,'_menu_item_target',''),
-	(46,25,'_menu_item_classes','a:1:{i:0;s:0:\"\";}'),
-	(47,25,'_menu_item_xfn',''),
-	(48,25,'_menu_item_url','');
+	(50,26,'_edit_last','1'),
+	(51,26,'_wp_page_template','default'),
+	(52,26,'_edit_lock','1476461568:1'),
+	(53,28,'_edit_last','1'),
+	(54,28,'_wp_page_template','default'),
+	(55,28,'_edit_lock','1476461461:1'),
+	(56,31,'_edit_last','1'),
+	(57,31,'_wp_page_template','default'),
+	(58,31,'_edit_lock','1476461624:1'),
+	(59,33,'_edit_last','1'),
+	(60,33,'_wp_page_template','default'),
+	(61,33,'_edit_lock','1476461644:1'),
+	(62,35,'_edit_last','1'),
+	(63,35,'_wp_page_template','default'),
+	(64,35,'_edit_lock','1476461664:1'),
+	(65,37,'_menu_item_type','post_type'),
+	(66,37,'_menu_item_menu_item_parent','0'),
+	(67,37,'_menu_item_object_id','35'),
+	(68,37,'_menu_item_object','page'),
+	(69,37,'_menu_item_target',''),
+	(70,37,'_menu_item_classes','a:1:{i:0;s:0:\"\";}'),
+	(71,37,'_menu_item_xfn',''),
+	(72,37,'_menu_item_url',''),
+	(74,38,'_menu_item_type','post_type'),
+	(75,38,'_menu_item_menu_item_parent','0'),
+	(76,38,'_menu_item_object_id','33'),
+	(77,38,'_menu_item_object','page'),
+	(78,38,'_menu_item_target',''),
+	(79,38,'_menu_item_classes','a:1:{i:0;s:0:\"\";}'),
+	(80,38,'_menu_item_xfn',''),
+	(81,38,'_menu_item_url',''),
+	(83,39,'_menu_item_type','post_type'),
+	(84,39,'_menu_item_menu_item_parent','0'),
+	(85,39,'_menu_item_object_id','31'),
+	(86,39,'_menu_item_object','page'),
+	(87,39,'_menu_item_target',''),
+	(88,39,'_menu_item_classes','a:1:{i:0;s:0:\"\";}'),
+	(89,39,'_menu_item_xfn',''),
+	(90,39,'_menu_item_url',''),
+	(92,40,'_menu_item_type','post_type'),
+	(93,40,'_menu_item_menu_item_parent','0'),
+	(94,40,'_menu_item_object_id','28'),
+	(95,40,'_menu_item_object','page'),
+	(96,40,'_menu_item_target',''),
+	(97,40,'_menu_item_classes','a:1:{i:0;s:0:\"\";}'),
+	(98,40,'_menu_item_xfn',''),
+	(99,40,'_menu_item_url',''),
+	(101,41,'_menu_item_type','post_type'),
+	(102,41,'_menu_item_menu_item_parent','0'),
+	(103,41,'_menu_item_object_id','26'),
+	(104,41,'_menu_item_object','page'),
+	(105,41,'_menu_item_target',''),
+	(106,41,'_menu_item_classes','a:1:{i:0;s:0:\"\";}'),
+	(107,41,'_menu_item_xfn',''),
+	(108,41,'_menu_item_url','');
 
 /*!40000 ALTER TABLE `wp_postmeta` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -400,8 +439,22 @@ VALUES
 	(21,1,'2016-10-14 15:39:45','2016-10-14 15:39:45','','Shipping & Returns','','inherit','closed','closed','','19-revision-v1','','','2016-10-14 15:39:45','2016-10-14 15:39:45','',19,'http://localhost:8888/PapiWholesale2/builds/development/2016/10/14/19-revision-v1/',0,'revision','',0),
 	(22,1,'2016-10-14 15:40:03','2016-10-14 15:40:03','','Terms & Conditions','','publish','closed','closed','','terms-conditions','','','2016-10-14 15:40:03','2016-10-14 15:40:03','',0,'http://localhost:8888/PapiWholesale2/builds/development/?page_id=22',0,'page','',0),
 	(23,1,'2016-10-14 15:40:03','2016-10-14 15:40:03','','Terms & Conditions','','inherit','closed','closed','','22-revision-v1','','','2016-10-14 15:40:03','2016-10-14 15:40:03','',22,'http://localhost:8888/PapiWholesale2/builds/development/2016/10/14/22-revision-v1/',0,'revision','',0),
-	(24,1,'2016-10-14 15:59:05','2016-10-14 15:59:05',' ','','','publish','closed','closed','','24','','','2016-10-14 15:59:05','2016-10-14 15:59:05','',0,'http://localhost:8888/PapiWholesale2/builds/development/?p=24',1,'nav_menu_item','',0),
-	(25,1,'2016-10-14 15:59:05','2016-10-14 15:59:05',' ','','','publish','closed','closed','','25','','','2016-10-14 15:59:05','2016-10-14 15:59:05','',0,'http://localhost:8888/PapiWholesale2/builds/development/?p=25',2,'nav_menu_item','',0);
+	(26,1,'2016-10-14 16:12:42','2016-10-14 16:12:42','','Essential Basics','','publish','closed','closed','','essential-basics','','','2016-10-14 16:12:42','2016-10-14 16:12:42','',0,'http://localhost:8888/PapiWholesale2/builds/development/?page_id=26',0,'page','',0),
+	(27,1,'2016-10-14 16:12:42','2016-10-14 16:12:42','','Essential Basics','','inherit','closed','closed','','26-revision-v1','','','2016-10-14 16:12:42','2016-10-14 16:12:42','',26,'http://localhost:8888/PapiWholesale2/builds/development/2016/10/14/26-revision-v1/',0,'revision','',0),
+	(28,1,'2016-10-14 16:13:02','2016-10-14 16:13:02','','Microflex','','publish','closed','closed','','microflex','','','2016-10-14 16:13:02','2016-10-14 16:13:02','',0,'http://localhost:8888/PapiWholesale2/builds/development/?page_id=28',0,'page','',0),
+	(29,1,'2016-10-14 16:13:02','2016-10-14 16:13:02','','Microflex','','inherit','closed','closed','','28-revision-v1','','','2016-10-14 16:13:02','2016-10-14 16:13:02','',28,'http://localhost:8888/PapiWholesale2/builds/development/2016/10/14/28-revision-v1/',0,'revision','',0),
+	(30,1,'2016-10-14 16:13:22','2016-10-14 16:13:22','','Microflex','','inherit','closed','closed','','28-autosave-v1','','','2016-10-14 16:13:22','2016-10-14 16:13:22','',28,'http://localhost:8888/PapiWholesale2/builds/development/2016/10/14/28-autosave-v1/',0,'revision','',0),
+	(31,1,'2016-10-14 16:13:37','2016-10-14 16:13:37','','Fashion','','publish','closed','closed','','fashion','','','2016-10-14 16:13:37','2016-10-14 16:13:37','',0,'http://localhost:8888/PapiWholesale2/builds/development/?page_id=31',0,'page','',0),
+	(32,1,'2016-10-14 16:13:37','2016-10-14 16:13:37','','Fashion','','inherit','closed','closed','','31-revision-v1','','','2016-10-14 16:13:37','2016-10-14 16:13:37','',31,'http://localhost:8888/PapiWholesale2/builds/development/2016/10/14/31-revision-v1/',0,'revision','',0),
+	(33,1,'2016-10-14 16:13:58','2016-10-14 16:13:58','','Sale','','publish','closed','closed','','sale','','','2016-10-14 16:13:58','2016-10-14 16:13:58','',0,'http://localhost:8888/PapiWholesale2/builds/development/?page_id=33',0,'page','',0),
+	(34,1,'2016-10-14 16:13:58','2016-10-14 16:13:58','','Sale','','inherit','closed','closed','','33-revision-v1','','','2016-10-14 16:13:58','2016-10-14 16:13:58','',33,'http://localhost:8888/PapiWholesale2/builds/development/2016/10/14/33-revision-v1/',0,'revision','',0),
+	(35,1,'2016-10-14 16:14:16','2016-10-14 16:14:16','','All Styles','','publish','closed','closed','','all-styles-2','','','2016-10-14 16:14:16','2016-10-14 16:14:16','',0,'http://localhost:8888/PapiWholesale2/builds/development/?page_id=35',0,'page','',0),
+	(36,1,'2016-10-14 16:14:16','2016-10-14 16:14:16','','All Styles','','inherit','closed','closed','','35-revision-v1','','','2016-10-14 16:14:16','2016-10-14 16:14:16','',35,'http://localhost:8888/PapiWholesale2/builds/development/2016/10/14/35-revision-v1/',0,'revision','',0),
+	(37,1,'2016-10-14 16:15:31','2016-10-14 16:15:31',' ','','','publish','closed','closed','','37','','','2016-10-14 16:15:31','2016-10-14 16:15:31','',0,'http://localhost:8888/PapiWholesale2/builds/development/?p=37',5,'nav_menu_item','',0),
+	(38,1,'2016-10-14 16:15:31','2016-10-14 16:15:31',' ','','','publish','closed','closed','','38','','','2016-10-14 16:15:31','2016-10-14 16:15:31','',0,'http://localhost:8888/PapiWholesale2/builds/development/?p=38',4,'nav_menu_item','',0),
+	(39,1,'2016-10-14 16:15:31','2016-10-14 16:15:31',' ','','','publish','closed','closed','','39','','','2016-10-14 16:15:31','2016-10-14 16:15:31','',0,'http://localhost:8888/PapiWholesale2/builds/development/?p=39',3,'nav_menu_item','',0),
+	(40,1,'2016-10-14 16:15:31','2016-10-14 16:15:31',' ','','','publish','closed','closed','','40','','','2016-10-14 16:15:31','2016-10-14 16:15:31','',0,'http://localhost:8888/PapiWholesale2/builds/development/?p=40',2,'nav_menu_item','',0),
+	(41,1,'2016-10-14 16:15:31','2016-10-14 16:15:31',' ','','','publish','closed','closed','','41','','','2016-10-14 16:15:31','2016-10-14 16:15:31','',0,'http://localhost:8888/PapiWholesale2/builds/development/?p=41',1,'nav_menu_item','',0);
 
 /*!40000 ALTER TABLE `wp_posts` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -426,8 +479,11 @@ LOCK TABLES `wp_term_relationships` WRITE;
 INSERT INTO `wp_term_relationships` (`object_id`, `term_taxonomy_id`, `term_order`)
 VALUES
 	(1,1,0),
-	(24,2,0),
-	(25,2,0);
+	(37,2,0),
+	(38,2,0),
+	(39,2,0),
+	(40,2,0),
+	(41,2,0);
 
 /*!40000 ALTER TABLE `wp_term_relationships` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -456,7 +512,7 @@ LOCK TABLES `wp_term_taxonomy` WRITE;
 INSERT INTO `wp_term_taxonomy` (`term_taxonomy_id`, `term_id`, `taxonomy`, `description`, `parent`, `count`)
 VALUES
 	(1,1,'category','',0,1),
-	(2,2,'nav_menu','',0,2);
+	(2,2,'nav_menu','',0,5);
 
 /*!40000 ALTER TABLE `wp_term_taxonomy` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -542,7 +598,8 @@ VALUES
 	(14,1,'session_tokens','a:1:{s:64:\"98189932ddf2de79520973b2dbc428f284fc9d1d6e50ab5db12c36bd1faaff34\";a:4:{s:10:\"expiration\";i:1476628415;s:2:\"ip\";s:3:\"::1\";s:2:\"ua\";s:82:\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:49.0) Gecko/20100101 Firefox/49.0\";s:5:\"login\";i:1476455615;}}'),
 	(15,1,'wp_dashboard_quick_press_last_post_id','3'),
 	(16,1,'managenav-menuscolumnshidden','a:5:{i:0;s:11:\"link-target\";i:1;s:11:\"css-classes\";i:2;s:3:\"xfn\";i:3;s:11:\"description\";i:4;s:15:\"title-attribute\";}'),
-	(17,1,'metaboxhidden_nav-menus','a:1:{i:0;s:12:\"add-post_tag\";}');
+	(17,1,'metaboxhidden_nav-menus','a:1:{i:0;s:12:\"add-post_tag\";}'),
+	(18,1,'nav_menu_recently_edited','2');
 
 /*!40000 ALTER TABLE `wp_usermeta` ENABLE KEYS */;
 UNLOCK TABLES;
