@@ -19,7 +19,12 @@ Template Name: Home Page
 
 <?php get_template_part( "/templates/beforeloop", "fullwidth" ) ?> 
 
-	<div class="col-md-6 log"><img src="http://localhost:8888/PapiWholesale2/builds/development/wp-content/uploads/2016/10/Login.jpg"></div>
+	<div class="col-md-6 log">		
+		<?php echo do_shortcode('[login_widget]');?>
+		<hr>
+		<?php echo do_shortcode('[forgot_password]');?>
+
+	</div>
 
 	<div class="col-md-6">
 		<?php echo do_shortcode("[huge_it_slider id='1']"); ?>
