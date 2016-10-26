@@ -5,31 +5,24 @@ Template Name: Home Page
 ?>
 <?php get_header(); ?>
 
-<style type="text/css">
-	.log{
-		background:black;
-	}
-	.content_background{
-		padding:0px;
-	}
-	#content{
-		background:black;
-	}
-</style>
+<?php get_template_part( "/templates/beforeloop", "page" ) ?> 
 
-<?php get_template_part( "/templates/beforeloop", "fullwidth" ) ?> 
+	<h1>Welcome, papi</h1>
 
-	<div class="col-md-6 log">		
-		<?php echo do_shortcode('[login_widget]');?>
-		<hr>
-		<?php echo do_shortcode('[forgot_password]');?>
+    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-	</div>
+        <?php get_template_part( "/templates/content", "page" ) ?>
 
-	<div class="col-md-6">
-		<?php echo do_shortcode("[huge_it_slider id='1']"); ?>
-	</div>
+    <?php endwhile; else: ?>
 
-<?php get_template_part( "/templates/afterloop", "fullwidth" ) ?> 
+        <?php get_template_part( "/templates/content", "none" ); ?>
+
+    <?php endif; ?>
+
+	<?php if (!( is_user_logged_in() )) : ?>
+    <a href="http://localhost:8888/PapiWholesale2/builds/development/register/">Register</a> to become a member. All memberships are prescreened and we will notify you if you are approved.
+	<?php endif; ?>
+
+<?php get_template_part( "/templates/afterloop", "page" ) ?> 
 
 <?php get_footer(); ?>
