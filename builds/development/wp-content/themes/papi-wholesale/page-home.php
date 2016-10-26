@@ -7,7 +7,6 @@ Template Name: Home Page
 
 <?php get_template_part( "/templates/beforeloop", "page" ) ?> 
 
-	<h1>Welcome, papi</h1>
 
     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 

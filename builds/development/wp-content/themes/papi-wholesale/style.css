@@ -8,3 +8,12 @@
 /* =Theme customization starts here
 -------------------------------------------------------------- */
 
+div.registration-form.woocommerce > form > div.cio-reg-sec.cio-reg-sec-cio-section-billing,
+div.registration-form.woocommerce > form > div.cio-reg-sec.cio-reg-sec-cio-section-billing-copy,
+div.registration-form.woocommerce > form > div.cio-reg-sec.cio-reg-sec-cio-section-billing-copy2,
+div.registration-form.woocommerce > form > div.cio-reg-sec.cio-reg-sec-cio-section-billing-copy3{
+	font-size:2em;
+	padding:5px 0 0 0;
+	border-bottom:2px solid black;
+	margin:0 0 5px 0;
+}

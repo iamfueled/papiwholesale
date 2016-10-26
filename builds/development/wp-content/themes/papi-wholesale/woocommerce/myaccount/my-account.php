@@ -37,4 +37,5 @@ do_action( 'woocommerce_account_navigation' ); ?>
 		 */
 		do_action( 'woocommerce_account_content' );
 	?>
+	<a href="http://localhost:8888/PapiWholesale2/builds/development/register/">Register</a> to become a member. All memberships are prescreened and we will notify you if you are approved.
 </div>
