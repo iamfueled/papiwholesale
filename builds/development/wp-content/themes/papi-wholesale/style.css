@@ -17,3 +17,9 @@ div.registration-form.woocommerce > form > div.cio-reg-sec.cio-reg-sec-cio-secti
 	border-bottom:2px solid black;
 	margin:0 0 5px 0;
 }
+body.woocommerce-register div.registration-form.woocommerce > h2{
+	display:none;
+}
+body.woocommerce-register div.registration-form.woocommerce:before{
+	content:'Sign up to become a registered papiwholesale.com customer';
+}
