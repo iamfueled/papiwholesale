@@ -7,7 +7,7 @@
 #
 # Host: localhost (MySQL 5.5.42)
 # Database: papiws2
-# Generation Time: 2016-10-26 19:36:43 +0000
+# Generation Time: 2016-10-26 20:04:29 +0000
 # ************************************************************
 
 
@@ -388,7 +388,7 @@ VALUES
 	(100,'widget_calendar','a:1:{s:12:\"_multiwidget\";i:1;}','yes'),
 	(101,'widget_tag_cloud','a:1:{s:12:\"_multiwidget\";i:1;}','yes'),
 	(102,'widget_nav_menu','a:1:{s:12:\"_multiwidget\";i:1;}','yes'),
-	(103,'cron','a:9:{i:1477511102;a:1:{s:32:\"woocommerce_cancel_unpaid_orders\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:2:{s:8:\"schedule\";b:0;s:4:\"args\";a:0:{}}}}i:1477526400;a:1:{s:27:\"woocommerce_scheduled_sales\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1477534775;a:3:{s:16:\"wp_version_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:17:\"wp_update_plugins\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_update_themes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1477547473;a:1:{s:28:\"woocommerce_cleanup_sessions\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1477578815;a:1:{s:19:\"wp_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1477582625;a:1:{s:30:\"wp_scheduled_auto_draft_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1477590673;a:1:{s:30:\"woocommerce_tracker_send_event\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1477958400;a:1:{s:25:\"woocommerce_geoip_updater\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:7:\"monthly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:2635200;}}}s:7:\"version\";i:2;}','yes'),
+	(103,'cron','a:9:{i:1477514757;a:1:{s:32:\"woocommerce_cancel_unpaid_orders\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:2:{s:8:\"schedule\";b:0;s:4:\"args\";a:0:{}}}}i:1477526400;a:1:{s:27:\"woocommerce_scheduled_sales\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1477534775;a:3:{s:16:\"wp_version_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:17:\"wp_update_plugins\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_update_themes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1477547473;a:1:{s:28:\"woocommerce_cleanup_sessions\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1477578815;a:1:{s:19:\"wp_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1477582625;a:1:{s:30:\"wp_scheduled_auto_draft_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1477590673;a:1:{s:30:\"woocommerce_tracker_send_event\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1477958400;a:1:{s:25:\"woocommerce_geoip_updater\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:7:\"monthly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:2635200;}}}s:7:\"version\";i:2;}','yes'),
 	(107,'_site_transient_update_core','O:8:\"stdClass\":4:{s:7:\"updates\";a:1:{i:0;O:8:\"stdClass\":10:{s:8:\"response\";s:6:\"latest\";s:8:\"download\";s:59:\"https://downloads.wordpress.org/release/wordpress-4.6.1.zip\";s:6:\"locale\";s:5:\"en_US\";s:8:\"packages\";O:8:\"stdClass\":5:{s:4:\"full\";s:59:\"https://downloads.wordpress.org/release/wordpress-4.6.1.zip\";s:10:\"no_content\";s:70:\"https://downloads.wordpress.org/release/wordpress-4.6.1-no-content.zip\";s:11:\"new_bundled\";s:71:\"https://downloads.wordpress.org/release/wordpress-4.6.1-new-bundled.zip\";s:7:\"partial\";b:0;s:8:\"rollback\";b:0;}s:7:\"current\";s:5:\"4.6.1\";s:7:\"version\";s:5:\"4.6.1\";s:11:\"php_version\";s:5:\"5.2.4\";s:13:\"mysql_version\";s:3:\"5.0\";s:11:\"new_bundled\";s:3:\"4.4\";s:15:\"partial_version\";s:0:\"\";}}s:12:\"last_checked\";i:1477493497;s:15:\"version_checked\";s:5:\"4.6.1\";s:12:\"translations\";a:0:{}}','no'),
 	(112,'_site_transient_update_themes','O:8:\"stdClass\":4:{s:12:\"last_checked\";i:1477493498;s:7:\"checked\";a:2:{s:14:\"papi-wholesale\";s:0:\"\";s:15:\"shophistic-lite\";s:6:\"1.0.12\";}s:8:\"response\";a:0:{}s:12:\"translations\";a:0:{}}','no'),
 	(116,'can_compress_scripts','1','no'),
@@ -691,6 +691,29 @@ VALUES
 
 /*!40000 ALTER TABLE `wp_options` ENABLE KEYS */;
 UNLOCK TABLES;
+
+
+# Dump of table wp_podsrel
+# ------------------------------------------------------------
+
+DROP TABLE IF EXISTS `wp_podsrel`;
+
+CREATE TABLE `wp_podsrel` (
+  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `pod_id` int(10) unsigned DEFAULT NULL,
+  `field_id` int(10) unsigned DEFAULT NULL,
+  `item_id` bigint(20) unsigned DEFAULT NULL,
+  `related_pod_id` int(10) unsigned DEFAULT NULL,
+  `related_field_id` int(10) unsigned DEFAULT NULL,
+  `related_item_id` bigint(20) unsigned DEFAULT NULL,
+  `weight` smallint(5) unsigned DEFAULT '0',
+  PRIMARY KEY (`id`),
+  KEY `field_item_idx` (`field_id`,`item_id`),
+  KEY `rel_field_rel_item_idx` (`related_field_id`,`related_item_id`),
+  KEY `field_rel_item_idx` (`field_id`,`related_item_id`),
+  KEY `rel_field_item_idx` (`related_field_id`,`item_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
 
 
 # Dump of table wp_postmeta
@@ -4846,8 +4869,8 @@ LOCK TABLES `wp_usermeta` WRITE;
 INSERT INTO `wp_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`)
 VALUES
 	(1,1,'nickname','admin'),
-	(2,1,'first_name',''),
-	(3,1,'last_name',''),
+	(2,1,'first_name','Tony'),
+	(3,1,'last_name','Rodriguez'),
 	(4,1,'description',''),
 	(5,1,'rich_editing','true'),
 	(6,1,'comment_shortcuts','false'),
@@ -4869,10 +4892,49 @@ VALUES
 	(23,1,'metaboxhidden_product','a:2:{i:0;s:10:\"postcustom\";i:1;s:7:\"slugdiv\";}'),
 	(24,1,'meta-box-order_product','a:3:{s:4:\"side\";s:84:\"submitdiv,product_catdiv,tagsdiv-product_tag,postimagediv,woocommerce-product-images\";s:6:\"normal\";s:67:\"woocommerce-product-data,postexcerpt,postcustom,slugdiv,commentsdiv\";s:8:\"advanced\";s:0:\"\";}'),
 	(25,1,'screen_layout_product','2'),
-	(26,1,'session_tokens','a:2:{s:64:\"c4b6b018feb1a5312577123f023f8173ed867a98bf05f814461bb65b4afa9658\";a:4:{s:10:\"expiration\";i:1477596715;s:2:\"ip\";s:3:\"::1\";s:2:\"ua\";s:82:\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:49.0) Gecko/20100101 Firefox/49.0\";s:5:\"login\";i:1477423915;}s:64:\"51dbdfa779c6491c8560c3c13708ae4500298a938197cdc38bce000eacefe1e0\";a:4:{s:10:\"expiration\";i:1477597205;s:2:\"ip\";s:3:\"::1\";s:2:\"ua\";s:82:\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:49.0) Gecko/20100101 Firefox/49.0\";s:5:\"login\";i:1477424405;}}'),
+	(26,1,'session_tokens','a:3:{s:64:\"c4b6b018feb1a5312577123f023f8173ed867a98bf05f814461bb65b4afa9658\";a:4:{s:10:\"expiration\";i:1477596715;s:2:\"ip\";s:3:\"::1\";s:2:\"ua\";s:82:\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:49.0) Gecko/20100101 Firefox/49.0\";s:5:\"login\";i:1477423915;}s:64:\"eb78406d6355983e2226ae2f2d5aa914a7c9001fea5733cb8f600606188d74c1\";a:4:{s:10:\"expiration\";i:1477683617;s:2:\"ip\";s:3:\"::1\";s:2:\"ua\";s:82:\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:49.0) Gecko/20100101 Firefox/49.0\";s:5:\"login\";i:1477510817;}s:64:\"d5d135ffa67e669475b855dfedd5a9f9ff8022b7cbde5acf63e1651d723bd23e\";a:4:{s:10:\"expiration\";i:1477684817;s:2:\"ip\";s:3:\"::1\";s:2:\"ua\";s:82:\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:49.0) Gecko/20100101 Firefox/49.0\";s:5:\"login\";i:1477512017;}}'),
 	(27,1,'show_per_page','25'),
 	(28,1,'orderby',''),
-	(29,1,'tgmpa_dismissed_notice_shophistic-lite','1');
+	(29,1,'tgmpa_dismissed_notice_shophistic-lite','1'),
+	(30,1,'billing_company',''),
+	(31,1,'shipping_first_name',''),
+	(32,1,'shipping_last_name',''),
+	(33,1,'shipping_company',''),
+	(34,1,'last_update','1477512251'),
+	(35,1,'cio_section_billing',''),
+	(36,1,'company','Isaco International'),
+	(37,1,'position','Web Developer'),
+	(38,1,'description_of_business','Underwear Company'),
+	(39,1,'type','Brick & Mortar'),
+	(40,1,'website_url','http://papiwholesale.com/'),
+	(41,1,'dba','Isaco International'),
+	(42,1,'applicable_ownership','incorporation'),
+	(43,1,'date_business_started','1980-01-01'),
+	(44,1,'heard','other'),
+	(45,1,'cio_section_billing_copy',''),
+	(46,1,'billing_first_name','Tony'),
+	(47,1,'billing_last_name','Rodriguez'),
+	(48,1,'billing_email',''),
+	(49,1,'billing_phone',''),
+	(50,1,'tax_idreslae_numbervat_number','n/a'),
+	(51,1,'cio_section_billing_copy2',''),
+	(52,1,'billing_address_1',''),
+	(53,1,'billing_address_2',''),
+	(54,1,'billing_city','Miami'),
+	(55,1,'billing_state','FL'),
+	(56,1,'billing_postcode','33014'),
+	(57,1,'billing_country','US'),
+	(58,1,'preferred_payment_methods','credit'),
+	(59,1,'cio_section_billing_copy3',''),
+	(60,1,'shipping_address_1',''),
+	(61,1,'shipping_address_2',''),
+	(62,1,'shipping_city','Miami'),
+	(63,1,'shipping_state','Florida'),
+	(64,1,'shipping_postcode','33014'),
+	(65,1,'shipping_phone',''),
+	(66,1,'shipping_country','US'),
+	(67,1,'shipping_account_number',''),
+	(68,1,'preferred_shipper','other');
 
 /*!40000 ALTER TABLE `wp_usermeta` ENABLE KEYS */;
 UNLOCK TABLES;

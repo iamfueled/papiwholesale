@@ -29,7 +29,13 @@ wc_print_notices();
 do_action( 'woocommerce_account_navigation' ); ?>
 
 <div class="woocommerce-MyAccount-content">
-	<h1>Welcome, papi</h1>
+
+	<?php
+    $current_user = wp_get_current_user();
+	?>
+
+
+	<h1>Welcome back, <?php echo $current_user->user_firstname;?> </h1>
 	<?php
 		/**
 		 * My Account content.
