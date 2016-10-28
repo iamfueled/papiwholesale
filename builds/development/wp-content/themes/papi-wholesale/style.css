@@ -23,3 +23,15 @@ body.woocommerce-register div.registration-form.woocommerce > h2{
 body.woocommerce-register div.registration-form.woocommerce:before{
 	content:'Sign up to become a registered papiwholesale.com customer';
 }
+
+/*Ordering Matrix*/
+
+table#ordering-matrix.fueled thead tr th{
+	background:black;
+	width:100%;
+	padding:5px;
+	color:white;
+	font-weight:100;
+}
+
+/*END: Ordering Matrix*/
